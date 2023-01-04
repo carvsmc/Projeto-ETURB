@@ -73,5 +73,5 @@ O `Android Studio` deve executar algumas tasks do *Gradle* para configurar o pro
 
 ## Desenvolvedores
 
-| [<img src="https://pt-static.z-dn.net/files/d2f/f7020c7ecdc66f66a981f7285d66ee56.jpg" width=115><br><sub>Maria Clara de Carvalho</sub>](https://github.com/camilafernanda) |  [<img src="https://i.pinimg.com/originals/f4/74/37/f47437938e65e3473d73d63d5e7db3e9.jpg" width=115><br><sub>Maria Rita</sub>](https://github.com/crovim)  |  [<img src="https://pyxis.nymag.com/v1/imgs/c54/8b0/dbe39faeb2d9bdc8a60ef1f54a3bde6a7a-lupin-iii.rsquare.w700.jpg" width=115><br><sub>Thyago Silva</sub>](https://github.com/crovim)  |
+| [<img src="https://pt-static.z-dn.net/files/d2f/f7020c7ecdc66f66a981f7285d66ee56.jpg" width=115><br><sub>Maria Clara de Carvalho</sub>](https://github.com/camilafernanda) |  [<img src="https://i.pinimg.com/originals/f4/74/37/f47437938e65e3473d73d63d5e7db3e9.jpg" width=115><br><sub>Maria Rita</sub>](https://github.com/mariaritaS)  |  [<img src="https://pyxis.nymag.com/v1/imgs/c54/8b0/dbe39faeb2d9bdc8a60ef1f54a3bde6a7a-lupin-iii.rsquare.w700.jpg" width=115><br><sub>Thyago Silva</sub>](https://github.com/crovim)  |
 | :---: | :---: | :---: 
