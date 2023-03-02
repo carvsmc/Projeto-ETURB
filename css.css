@@ -4,9 +4,6 @@ body { margin: 0; padding: 0; }
         width: 100%;
         z-index: -2;
         top: 8%;
-        
-        
-
 }
 #botao { position: fixed;
         bottom: 8%;
@@ -23,27 +20,74 @@ body { margin: 0; padding: 0; }
         height: 60px;
         z-index: -1;
 }
-#geocoder-container {
-    min-width: 50%;
-    margin-left: 25%;
+/* Mapbox */
+  
+.mapboxgl-map .mapboxgl-popup{
+    left:20%;
+    top: 25%;
+    height: 50%;
+    width: 350px;
+    position:fixed;
+    transform:none !important;
 }
-.coordinates {
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    position: absolute;
-    bottom: 40px;
-    left: 10px;
-    padding: 5px 10px;
-    margin: 0;
-    font-size: 11px;
-    line-height: 18px;
-    border-radius: 3px;
-    display: none;
+.mapboxgl-map .mapboxgl-popup-tip{display:none;}
+
+
+.mapboxgl-popup-close-button {
+  display: none;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+.mapboxgl-popup-content {
+  font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+  background-color: #5555;
+  position:fixed;
+  padding: 10px;
+  width: 300px;
+  right: 10px;
+  border: 3px;
+  border-color: #f1f1f1;
+}
+
+.mapboxgl-popup-content-wrapper {
+  padding: 1%;
+}
+
+.mapboxgl-popup-content h5 {
+  background: rgb(239, 154, 49);
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  display: block;
+  padding: 10px;
+  font-weight: 700;
+  margin-top: -5px;
+}
+
+.mapboxgl-popup-content h6 {
+  margin: 0;
+  display: block;
+  padding: 5px;
+  font-weight: 400;
+}
+
+.mapboxgl-container {
+  cursor: pointer;
+}
+
+.marker {
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+
+#geocoder-container {
+    width: 100px;  
+    margin-left: 25%;
+}
+
+/*------------Cabeçalho-------------------------*/
 #header {
   position: fixed;
   background: #fff;
@@ -85,12 +129,7 @@ body { margin: 0; padding: 0; }
 }
 
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
+/*------------Navigation Menu-------------------------*/
 .navbar {
   padding: 0;
 }
@@ -220,5 +259,19 @@ body { margin: 0; padding: 0; }
 
   .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
+  }
+}
+
+.loading{
+  width: 27px;
+  animation: rodar 1s infinite linear;
+}
+
+@keyframes rodar {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
   }
 }
